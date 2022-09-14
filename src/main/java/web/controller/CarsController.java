@@ -32,7 +32,7 @@ public class CarsController {
         List<Car> carList = new ArrayList<>();
         carList = carService.getSomeCars(count);
         carList.stream().forEach(System.out::println);
-        //model.addAttribute("cars", carService.getSomeCars(count));
+        model.addAttribute("cars", carService.getSomeCars(count));
         return "cars";
     }
 }
