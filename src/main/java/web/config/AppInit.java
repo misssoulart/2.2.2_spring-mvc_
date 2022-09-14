@@ -27,3 +27,5 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
     }
 
 }
+
+// без изменений
