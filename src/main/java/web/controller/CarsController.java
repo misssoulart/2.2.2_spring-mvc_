@@ -10,6 +10,7 @@ import web.service.CarService;
 
 
 @Controller
+@RequestMapping("/cars")
 public class CarsController {
 
     private final CarService carService;
@@ -21,9 +22,9 @@ public class CarsController {
 
     // Spring Framework. Урок 19: Параметры GET запроса. (Алишев)
     // Spring Framework. Урок 20: Модель. Передача данных от контроллера к представлению. (Алишев)
-    @GetMapping(value = "/cars")
-    public String show(@RequestParam(value = "count", required = false, defaultValue = "5") int count, Model model) {
-        model.addAttribute("cars", carService.showCars(count));
-        return "cars";
+    @GetMapping()
+    public String getSomeCars(@RequestParam(value = "count", defaultValue = "5") int count, Model model) {
+        model.addAttribute("cars", carService.getSomeCars(count));
+        return "car/cars";
     }
 }
