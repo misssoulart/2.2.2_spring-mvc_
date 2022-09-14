@@ -9,9 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd1c6788-f0b8-41fc-b65d-89e9ccad8a66" name="Changes" comment="14.09.22">
+    <list default="true" id="dd1c6788-f0b8-41fc-b65d-89e9ccad8a66" name="Changes" comment="14.09.22_2">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/CarsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/pages/cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/CarsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/CarsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +173,7 @@
       <workItem from="1662980665408" duration="3360000" />
       <workItem from="1662984446151" duration="27000" />
       <workItem from="1662984529983" duration="8217000" />
-      <workItem from="1663137026536" duration="5512000" />
+      <workItem from="1663137026536" duration="7516000" />
     </task>
     <task id="LOCAL-00001" summary="14.09.">
       <created>1663136911607</created>
@@ -198,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663140607517</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="14.09.22_2">
+      <created>1663142573117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663142573117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +230,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="14.09." />
     <MESSAGE value="14.09.22" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.09.22" />
+    <MESSAGE value="14.09.22_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.09.22_2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

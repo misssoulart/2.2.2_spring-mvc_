@@ -15,11 +15,12 @@
     <th scope="row">model</th>
   </tr>
   <thead/>
+
   <tbody>
   <tr th:each="car: ${cars}">
-    <td th:text="${car.getCountry}"/>
-    <td th:text="${car.getSeries}"/>
-    <td th:text="${car.getModel}"/>
+    <td th:text="${car.getCountry()}"/>
+    <td th:text="${car.getSeries()}"/>
+    <td th:text="${car.getModel()}"/>
   </tr>
 
   </tbody>
